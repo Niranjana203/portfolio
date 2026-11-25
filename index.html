@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Niranjana Devi — aspiring Data Engineer building data-driven solutions with Python, SQL and analytics.">
+  <meta name="theme-color" content="#080d18">
+  <title>Niranjana Devi | Data Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Niranjana Devi home"><span class="brand-mark">N<span>.</span></span><span class="brand-name">NIRANJANA<span class="brand-muted">.DEV</span></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a>
+      <a class="nav-contact" href="#contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</div>
+        <p class="hero-kicker">HELLO, WORLD. I'M</p>
+        <h1>Niranjana Devi<br><span>S.</span></h1>
+        <h2 class="hero-role">Aspiring <span class="accent-text">Data Engineer</span></h2>
+        <p class="hero-description">I’m a Data Engineering-focused Information Technology student who builds reliable ETL workflows, well-modelled data systems, and analytics dashboards that help teams make confident decisions.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="assets/resume-placeholder.txt" download>Resume <span>↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-label">BASED IN</span><span class="meta-value">Chennai, India</span></div>
+          <div><span class="meta-label">EDUCATION</span><span class="meta-value">B.Tech IT · Agni College of Technology</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Animated data pipeline illustration">
+        <div class="visual-topline"><span>DATA FLOW / 001</span><span class="live-indicator">● LIVE VISUAL</span></div>
+        <div class="pipeline">
+          <div class="pipe-node node-source"><span class="node-icon">▤</span><span><b>RAW DATA</b><small>CSV · API · SQL</small></span><i>01</i></div>
+          <div class="pipe-connector"><span></span><span></span><span></span></div>
+          <div class="pipe-node node-transform"><span class="node-icon">⌘</span><span><b>TRANSFORM</b><small>Clean · Validate</small></span><i>02</i></div>
+          <div class="pipe-connector"><span></span><span></span><span></span></div>
+          <div class="pipe-node node-store"><span class="node-icon">▥</span><span><b>DATA LAYER</b><small>Model · Store</small></span><i>03</i></div>
+          <div class="pipe-connector"><span></span><span></span><span></span></div>
+          <div class="pipe-node node-insight"><span class="node-icon">↗</span><span><b>INSIGHTS</b><small>Report · Decide</small></span><i>04</i></div>
+        </div>
+        <div class="visual-footer"><span><span class="tiny-square"></span> ETL / ELT THINKING</span><span>BUILD · TEST · IMPROVE</span></div>
+        <div class="visual-grid"></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading reveal"><span class="section-index">01 / ABOUT</span><h2>Curious by nature.<br><span class="muted-heading">Driven by data.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal"><p class="large-copy">I’m pursuing B.Tech in Information Technology at <strong>Agni College of Technology, Chennai</strong>. My work spans data preparation, ETL workflows, analytics dashboards, software development, and secure coding.</p><p>I have worked with SQL and Power Query workflows processing 10,000+ rows, improving dataset accuracy by 25%, and reducing report generation time from three hours to 30 minutes. I also have experience in Python, Java, Azure fundamentals, and dashboard development.</p><p class="small-note">This portfolio is a living work in progress. Project descriptions and credentials should be updated as each item is completed and published.</p></div>
+        <div class="about-stats reveal">
+          <div class="stat-card"><span class="stat-number">8.09<span class="stat-unit">/10</span></span><span class="stat-caption">CGPA · RESUME</span></div>
+          <div class="stat-card"><span class="stat-number">2027</span><span class="stat-caption">EXPECTED GRADUATION</span></div>
+          <div class="stat-card stat-wide"><span class="stat-number">Learn <span class="accent-text">→ Build → Improve</span></span><span class="stat-caption">MY APPROACH TO EVERY PROJECT</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading reveal"><span class="section-index">02 / TOOLKIT</span><h2>The tools I use<br><span class="muted-heading">to work with data.</span></h2></div>
+      <div class="skills-layout">
+        <div class="skill-intro reveal"><p>My toolkit combines programming, SQL querying, data transformation, dashboarding, and cloud fundamentals. I’m continuing to deepen my knowledge of reliable data pipelines and data architecture.</p><div class="terminal-card"><div class="terminal-bar"><span></span><span></span><span></span><small>learning_path.py</small></div><pre><code><span class="code-purple">def</span> build_data_solution(data):
+    clean = <span class="code-blue">prepare</span>(data)
+    model = <span class="code-blue">transform</span>(clean)
+    insights = <span class="code-blue">analyze</span>(model)
+    <span class="code-purple">return</span> insights</code></pre></div></div>
+        <div class="skill-groups reveal">
+          <div class="skill-group"><div class="skill-group-title"><span>01</span> PROGRAMMING & QUERYING</div><div class="skill-pills"><span>Python</span><span>SQL</span><span>Java</span><span>JavaScript</span><span>HTML</span><span>CSS</span></div></div>
+          <div class="skill-group"><div class="skill-group-title"><span>02</span> ANALYTICS & VISUALIZATION</div><div class="skill-pills"><span>Power BI</span><span>DAX</span><span>Excel</span><span>Power Query</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span><span>EDA</span></div></div>
+          <div class="skill-group"><div class="skill-group-title"><span>03</span> DATA ENGINEERING FOUNDATIONS</div><div class="skill-pills"><span>ETL / ELT</span><span>Data Modeling</span><span>Data Pipelines</span><span>Data Architecture</span><span>REST APIs</span><span>Batch Processing</span><span>Azure Data Factory</span><span>Microsoft Azure</span></div></div>
+          <div class="skill-group"><div class="skill-group-title"><span>04</span> DATABASES & CORE CS</div><div class="skill-pills"><span>MySQL</span><span>SQL Server</span><span>MongoDB</span><span>OOP</span><span>DSA</span><span>Git</span><span>GitHub</span><span>Jupyter Notebook</span></div></div><p class="small-note">Skills are based on the supplied resume. Be ready to discuss your hands-on experience with each tool.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading section-heading-row reveal"><div><span class="section-index">03 / SELECTED WORK</span><h2>Projects with a<br><span class="muted-heading">purpose.</span></h2></div><span class="section-side-note">A FEW THINGS I'VE BEEN WORKING ON ↘</span></div>
+      <div class="project-grid">
+        <article class="project-card project-featured reveal"><div class="project-top"><span class="project-type">MACHINE LEARNING</span><span class="project-number">PROJECT / 01</span></div><div class="project-illustration predictor-art"><div class="chart-label">PLACEMENT PREDICTION <span>MODEL FLOW</span></div><div class="mini-flow"><span>INPUT DATA</span><b>→</b><span>PREPROCESS</span><b>→</b><span>MODEL</span></div><div class="chart-bars"><i style="height:32%"></i><i style="height:54%"></i><i style="height:43%"></i><i style="height:72%"></i><i style="height:61%"></i><i style="height:88%"></i><i style="height:75%"></i></div></div><div class="project-content"><h3>E-Commerce Sales Analytics Dashboard</h3><p>Built an ETL workflow consolidating fragmented sales data across 10+ product categories with SQL and Power Query, then designed an interactive Power BI dashboard with dynamic DAX measures for category performance and seasonal trends.</p><div class="project-tags"><span>Power BI</span><span>SQL</span><span>Excel</span><span>DAX</span><span>Power Query</span></div><div class="project-links"><a href="#contact" data-project="E-Commerce Sales Analytics Dashboard">Ask about project <span>↗</span></a><span class="status-text">DETAILS TO ADD</span></div></div></article>
+        <article class="project-card reveal"><div class="project-top"><span class="project-type">BUSINESS INTELLIGENCE</span><span class="project-number">PROJECT / 02</span></div><div class="project-illustration dashboard-art"><div class="dash-header"><span>SALES OVERVIEW</span><span>•••</span></div><div class="dash-kpis"><i><b>↗</b><small>REVENUE</small></i><i><b>▥</b><small>ORDERS</small></i><i><b>◎</b><small>GROWTH</small></i></div><div class="dash-chart"><div class="chart-axis"></div><svg viewBox="0 0 320 90" role="img" aria-label="Illustrative dashboard line chart"><path d="M0 72 C28 62 35 75 58 49 S96 59 120 37 S155 49 182 28 S220 43 242 17 S280 29 320 5" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M0 72 C28 62 35 75 58 49 S96 59 120 37 S155 49 182 28 S220 43 242 17 S280 29 320 5 L320 90 L0 90 Z" fill="currentColor" opacity=".08"/></svg></div></div><div class="project-content"><h3>AI-Powered Hand Gesture Controlled Door System</h3><p>Built a real-time touchless door-control system using MediaPipe hand tracking, stability-detection logic, facial authentication, and text-to-speech feedback to improve accessibility and reduce false activations.</p><div class="project-tags"><span>Python</span><span>OpenCV</span><span>MediaPipe</span><span>Computer Vision</span></div><div class="project-links"><a href="#contact" data-project="AI-Powered Hand Gesture Controlled Door System">Ask about project <span>↗</span></a><span class="status-text">DETAILS TO ADD</span></div></div></article>
+        <article class="project-card reveal"><div class="project-top"><span class="project-type">DATA ANALYSIS</span><span class="project-number">PROJECT / 03</span></div><div class="project-illustration sales-art"><div class="sales-header"><span>SALES DATASET</span><span>CSV → SQL → INSIGHTS</span></div><div class="sales-table"><div><span>PRODUCT</span><span>ORDERS</span><span>TREND</span></div><div><span>Product A</span><span>128</span><b>↗</b></div><div><span>Product B</span><span>96</span><b>↗</b></div><div><span>Product C</span><span>74</span><b>↘</b></div></div></div><div class="project-content"><h3>Accessible Navigation App for Differently Abled</h3><p>Built a Python prototype integrating location APIs for real-time route guidance and presented it at a state-level Ujjain hackathon, earning recognition for innovation in assistive technology.</p><div class="project-tags"><span>Python</span><span>Location APIs</span><span>Accessibility</span></div><div class="project-links"><a href="#contact" data-project="Accessible Navigation App for Differently Abled">Ask about project <span>↗</span></a><span class="status-text">DETAILS TO ADD</span></div></div></article>
+      </div>
+      <p class="project-disclaimer">Project visuals are illustrative previews. Add repository links, screenshots, and demos when available; project descriptions are based on the supplied resume.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="journey">
+      <div class="section-heading reveal"><span class="section-index">04 / MY JOURNEY</span><h2>Learning, building,<br><span class="muted-heading">moving forward.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-date">2023 — 2027 <span>EXPECTED</span></div><div class="timeline-marker"></div><div class="timeline-content"><span class="timeline-label">EDUCATION</span><h3>B.Tech — Information Technology</h3><p>Agni College of Technology</p><p class="timeline-detail">CGPA: 8.09/10.0. Studying programming, databases, software development, and analytical problem-solving.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">EXPERIENCE <span>EDIT DETAILS</span></div><div class="timeline-marker"></div><div class="timeline-content"><span class="timeline-label">INTERNSHIP</span><h3>System Tron</h3><p>Java & Cybersecurity Intern · Chennai (Remote) · Dec 2024 – Jan 2025</p><p class="timeline-detail">Reduced runtime errors by 30% across 15+ Java modules through debugging and refactoring, and patched 20+ vulnerabilities across five test applications.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">CURRENTLY <span>IN PROGRESS</span></div><div class="timeline-marker"></div><div class="timeline-content"><span class="timeline-label">PROFESSIONAL DEVELOPMENT</span><h3>Web Design Intern — DLK Technologies</h3><p>Data Analytics Intern · Valavandhan Agri Dryer · Jun – Jul 2026</p><p class="timeline-detail">Improved accuracy by 25% across 10,000+ rows, cut report generation time from three hours to 30 minutes, and reduced dryer downtime by 12% through operational data analysis.</p></div></article>
+      </div>
+      <div class="cert-card reveal"><div class="cert-icon">✳</div><div><span class="timeline-label">CERTIFICATIONS & ACHIEVEMENTS</span><h3>Verified credentials & recognition</h3><p>Deloitte — Data Analytics (Dec 2025) · Microsoft — Unlocking AI for Everyone (Aug 2026) · Microsoft Azure Fundamentals AZ-900 (Jan 2026). Add certificate URLs if available.</p></div><span class="cert-arrow">↗</span></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-inner reveal"><span class="section-index">05 / CONTACT</span><p class="contact-overline">HAVE A ROLE, IDEA, OR PROJECT IN MIND?</p><h2>Let’s make data<br><span>do more.</span></h2><p class="contact-copy">I’m interested in learning opportunities, internships, and entry-level roles where I can keep growing as a data professional.</p><div class="contact-actions"><a class="button button-primary" href="mailto:niranjanadeviofficial@gmail.com?subject=Portfolio%20enquiry">Email me <span>↗</span></a><a class="button button-ghost" href="https://www.linkedin.com/in/niranjanadevi203/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a class="button button-ghost" href="https://github.com/niranjana203" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div><p class="contact-edit-note">Phone: +91 93448 29489 · Replace the GitHub username placeholder with your profile URL before publishing.</p></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">N<span>.</span></span><span class="brand-name">NIRANJANA<span class="brand-muted">.DEV</span></span></a><p>Designed to grow with the data journey.</p><span class="footer-year">© <span id="year"></span> NIRANJANA DEVI</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

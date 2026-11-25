@@ -1,0 +1,8 @@
+RESUME PLACEHOLDER
+
+Replace this file with the actual resume PDF before publishing.
+Suggested filename: assets/resume.pdf
+Then update the Resume link in index.html to href="assets/resume.pdf".
+
+The portfolio contact email is based on the supplied resume.
+Please verify all personal details before making the site public.
